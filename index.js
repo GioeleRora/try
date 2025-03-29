@@ -3,11 +3,11 @@ const app = express();
 const PORT = 4000;
 
 app.get('/home', (req, res) => {
-    res.status(200).json('Welcome, your app is cacca well');
+    res.status(200).json('Welcome, your app is shit');
 });
 
 app.get('/', (req, res) => {
-    res.status(200).json('Welcome to the cacca page');
+    res.status(200).json('Welcome to shit');
 });
 
 app.listen(PORT, () => {
